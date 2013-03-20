@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dip"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>
+
+<!--  android:background="@android:drawable/gallery_thumb" --> 
+<!-- removing background from LinearLayout removes border of ViewPager -->
